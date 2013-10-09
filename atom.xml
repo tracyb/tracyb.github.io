@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Life Part B]]></title>
+  <title><![CDATA[Life...Part B]]></title>
   <link href="http://tracyb.github.io/atom.xml" rel="self"/>
   <link href="http://tracyb.github.io/"/>
-  <updated>2013-10-07T21:17:30-06:00</updated>
+  <updated>2013-10-08T23:32:55-06:00</updated>
   <id>http://tracyb.github.io/</id>
   <author>
     <name><![CDATA[Tracy Baumann]]></name>
@@ -14,40 +14,75 @@
 
   
   <entry>
-    <title type="html"><![CDATA[This is my first post]]></title>
-    <link href="http://tracyb.github.io/blog/2013/10/07/this-is-my-first-post/"/>
-    <updated>2013-10-07T20:35:00-06:00</updated>
-    <id>http://tracyb.github.io/blog/2013/10/07/this-is-my-first-post</id>
-    <content type="html"><![CDATA[<p>This is my favorite post.</p>
+    <title type="html"><![CDATA[And the rollercoaster continues...]]></title>
+    <link href="http://tracyb.github.io/blog/2013/10/08/and-the-rollercoaster-continues-dot-dot-dot/"/>
+    <updated>2013-10-08T22:29:00-06:00</updated>
+    <id>http://tracyb.github.io/blog/2013/10/08/and-the-rollercoaster-continues-dot-dot-dot</id>
+    <content type="html"><![CDATA[<p>Saturday was Installfest &ndash; I left the DaVinci Institute feeling exhilarated and excited about all of the &ldquo;stuff&rdquo; I added to my shiny new MacBook:</p>
+
+<p>Homebrew &ndash; software that references beer? I&rsquo;m in!</p>
+
+<p>iTerm2 &ndash; feeling like a psuedo techie now</p>
+
+<p>Google Chrome &ndash; adios Safari</p>
+
+<p>AirParrot &ndash; hey, learning stuff I can use at home too!</p>
+
+<p>Anki &ndash; who doesn&rsquo;t love flashcards?</p>
+
+<p>Evernote &ndash; this is definitely going to come in handy</p>
+
+<p>Skitch &ndash; screen shots = money for a beginning student</p>
+
+<p>Flycut &ndash; not proficient enough to dabble in this&hellip;yet</p>
+
+<p>Moom &ndash; my favorite new app, can&rsquo;t wait to learn the keyboard shortcuts</p>
+
+<p>HipChat &ndash; misery loves company :)</p>
+
+<p>Github &ndash; the sticker is so cool, this must be great</p>
+
+<p>On Sunday I tackled the first few homework problems. These were &ndash; dare I say &ndash; easy? The exercises introduced concepts such as objects, variables, assignment. I was feeling confident and&hellip;smart?</p>
+
+<p>At 10 o&#8217;clock on Monday night, I left the first class with heavy eyes and a heavy heart. Managed to keep up with the class (kinda-sorta) but wow, there is a lot to learn. We used Octopress to start our own blogs. I&rsquo;ve always wanted to start a blog so I was eager to jump in.</p>
+
+<p>Tonight I set out to finish what we started with the blog. After poking around for about 2 hours, I finally remembered how to do everything we did the night before using the terminal and RubyMine. Was I actually sleeping with my eyes open in class? :)</p>
+
+<p>First, I changed the look of my blog using a free theme from octothemes.com. Chose an acceptable (not perfect) theme and linked it to my Github repo. From there I followed the steps to install as a Git submodule. Next I applied the theme to my blog with the following commands:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ sudo make_me_a_sandwhich</span></code></pre></td></tr></table></div></figure>
-
-
-<figure class='code'><figcaption><span>Cat class</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Cat</span>
-</span><span class='line'>    <span class="k">def</span> <span class="nf">speak</span>
-</span><span class='line'>        <span class="nb">puts</span> <span class="s2">&quot;Meow&quot;</span>
-</span><span class='line'>    <span class="k">end</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake install[theme name]
+</span><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure>
 
 
+<p>followed by Control-C and</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview</span></code></pre></td></tr></table></div></figure>
 
 
-<div><script src='https://gist.github.com/6878737.js'></script>
-<noscript><pre><code>class Horse
-  def speak
-    &quot;Neighhhhh&quot;
-  end
-end</code></pre></noscript></div>
+<p>Then I finally figured out how to add a new post:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_post["Title"]
+</span><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure>
 
 
+<p>Followed by a search in RubyMine using Shift-Command-N to search for the post I just created. Started writing&hellip;</p>
 
+<p>I hopped over to google chrome and peeked at the outcome at <a href="http://localhost:4000.">http://localhost:4000.</a></p>
+
+<p>Hmmnn&hellip;my test post from class was cramping my style, but how to delete?</p>
+
+<p>A quick google search and I learned how to navigate to the source file and delete the post.</p>
+
+<p>Ta da! My very first blog!</p>
+
+<p>Conclusion: the teacher sure made this look easy! Feeling pretty good for a newbie.</p>
+
+<p>Until class tomorrow night&hellip;</p>
 ]]></content>
   </entry>
   
