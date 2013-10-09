@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Life...Part B]]></title>
+  <title><![CDATA[Technically Speaking...]]></title>
   <link href="http://tracyb.github.io/atom.xml" rel="self"/>
   <link href="http://tracyb.github.io/"/>
-  <updated>2013-10-08T23:32:55-06:00</updated>
+  <updated>2013-10-09T06:37:17-06:00</updated>
   <id>http://tracyb.github.io/</id>
   <author>
     <name><![CDATA[Tracy Baumann]]></name>
@@ -80,7 +80,7 @@
 
 <p>Ta da! My very first blog!</p>
 
-<p>Conclusion: the teacher sure made this look easy! Feeling pretty good for a newbie.</p>
+<p>Conclusion: feeling pretty good for a newbie.</p>
 
 <p>Until class tomorrow night&hellip;</p>
 ]]></content>
